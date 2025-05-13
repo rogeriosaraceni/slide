@@ -4,12 +4,11 @@
 
 .slide{
     display: flex;
-    transform: translate3d(-500px,0px,0px);
-    
-    & li{
-        flex-shrink: 0;
-        width: 80vw;
-        max-width: 800px;
-        margin: 20px;
-    }
+}
+
+.slide li{
+    flex-shrink: 0;
+    width: 80vw;
+    max-width: 800px;
+    margin: 20px;
 }
