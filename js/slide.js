@@ -48,9 +48,6 @@ export default class Slide{
         this.dist.finalPosition = this.dist.movePosition;
     }
 
-
-
-
     //adiciona cada evento do slide
     addSlideEvents() {
         this.wrapper.addEventListener('mousedown', this.onStart);
